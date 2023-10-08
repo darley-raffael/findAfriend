@@ -1,0 +1,23 @@
+/* Variables and mixins declared here will be available in all other SASS files */
+$font-primary: "Nunito", sans-serif
+
+
+$bg-primary-red: #F15156
+$bg-primmary-white: #FFF 
+$bg-primary-pink-light: #FDECED
+
+
+$color-yellow: #F4D35E
+$color-blue: #0D3B66
+$color-green: #3CDC8C
+$color-white: #F5F8FA
+$color-line-white: #D3E2E5
+
+
+@mixin hover-btn
+  transition: all 0.3s ease-in-out
+
+  &:hover
+    filter: brightness(0.9)
+    scale: 1.01
+
